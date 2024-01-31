@@ -6,8 +6,6 @@ import PostItem from './components/PostItem.jsx'
 
 function App() {
   const [posts, setposts] = useState([]);
-  const [loading, setloading] = useState();
-  const [error, seterror] = useState();
   const [page, setpage] = useState(1);
 
   async function fetchData(){
